@@ -53,7 +53,7 @@ Custom dark theme with muted colors:
 
 ## Keybindings
 
-You can see all keybindings including a comprehensive workflow usage on [guide.md]([https://github.com/byemidev/pookie-oldmac-dotfiles/guide.md](https://github.com/byemidev/pookie-oldmac-dotfiles/blob/main/guide.md)).
+You can see all keybindings including a comprehensive workflow usage on [guide.md](./guide.md).
 
 ## Credits
 
