@@ -27,6 +27,11 @@ vim.keymap.set("n", "<C-j>", "<C-w>j", { desc = "Ir al panel de abajo" })
 vim.keymap.set("n", "<C-k>", "<C-w>k", { desc = "Ir al panel de arriba" })
 vim.keymap.set("n", "<C-l>", "<C-w>l", { desc = "Ir al panel derecho" })
 
+-- Atajos Clipboard
+vim.keymap.set("v", "<C-c>", '"+y', { desc = "Copiar al clipboard"})
+vim.keymap.set("n", "<C-v>", '"+p', { desc = "Pegar desde clipboard"})
+vim.keymap.set("i", "<C-v>", '<C-r>+', { desc = "Insertar desde clipboard"})
+
 -- Atajos básicos
 vim.keymap.set("n", "<Esc>", "<cmd>nohlsearch<CR>")
 vim.keymap.set("n", "[d", vim.diagnostic.goto_prev, { desc = "Ir al anterior diagnostic" })
